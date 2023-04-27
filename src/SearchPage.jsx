@@ -20,6 +20,7 @@ export function SearchPage() {
 // const data = Response;
 
    console.log(data)
+   
    return (
       <div className="searchpage">
          <div className="searchpage_header">
@@ -28,12 +29,15 @@ export function SearchPage() {
             </Link>
 
             <div className="searchpage_headerbody">
-               <Search hideButtons/>
+              
+<Search hideButtons/>
+             
+              
                <div className="searchpage_options">
                   <div className="searchpage_optionsleft">
                      <div className="searchpage_option">
                         <SearchIcon/>
-                        <Link to="/all">All</Link>
+                        <Link to="/searchs">All</Link>
                      </div>
                      <div className="searchpage_option">
                         <DescriptionIcon/>
@@ -42,6 +46,7 @@ export function SearchPage() {
                      <div className="searchpage_option">
                         <ImageIcon/>
                         <Link to="/images">Images</Link>
+                    
                      </div>
                      <div className="searchpage_option">
                         <LocalOfferIcon/>
@@ -60,7 +65,9 @@ export function SearchPage() {
 
                   <div className="searchpage_optionsright">
                      <div className="searchpage_option">
-                        <Link to="/settings">Settings</Link>
+                        <a 
+                        href="https://www.google.com/preferences?hl=en&prev=https://www.google.com/search?q%3Ddfg%26oq%3Ddfg%26aqs%3Dchrome..69i57j0i10i131i433i512j46i512l2j0i512l3j5.1341j0j7%26sourceid%3Dchrome%26ie%3DUTF-8">
+                        Settings</a>
                      </div>
                      <div className="searchpage_option">
                         <Link to="/tools">Tools</Link>
