@@ -37,11 +37,7 @@ export function SearchPage() {
                   <div className="searchpage_optionsleft">
                      <div className="searchpage_option">
                         <SearchIcon/>
-                        <Link to="/searchs">All</Link>
-                     </div>
-                     <div className="searchpage_option">
-                        <DescriptionIcon/>
-                        <Link to="/news">News</Link>
+                        <Link to="/search">All</Link>
                      </div>
                      <div className="searchpage_option">
                         <ImageIcon/>
@@ -49,16 +45,21 @@ export function SearchPage() {
                     
                      </div>
                      <div className="searchpage_option">
+                        <DescriptionIcon/>
+                        <Link to="/search">News</Link>
+                     </div>
+                   
+                     <div className="searchpage_option">
                         <LocalOfferIcon/>
-                        <Link to="/shopping">Shopping</Link>
+                        <Link to="/search">Shopping</Link>
                      </div>
                      <div className="searchpage_option">
                         <RoomIcon/>
-                        <Link to="/maps">Maps</Link>
+                        <Link to="/search">Maps</Link>
                      </div>
                      <div className="searchpage_option">
                         <MoreVertIcon/>
-                        <Link to="/more">More</Link>
+                        <Link to="/search">More</Link>
                      </div>
                   
                   </div>
@@ -70,7 +71,7 @@ export function SearchPage() {
                         Settings</a>
                      </div>
                      <div className="searchpage_option">
-                        <Link to="/tools">Tools</Link>
+                        <Link to="/search">Tools</Link>
                      </div>
                   </div>
                </div>
