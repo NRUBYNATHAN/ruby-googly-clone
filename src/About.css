@@ -1,0 +1,31 @@
+.about{
+
+max-width: 800px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-left: 350px;
+margin-top: 100px;
+background-color: rgb(233, 230, 226);
+padding: 20px;
+border-radius: 20px;
+}
+.rubytitle{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.ruby1{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.ruby2{
+    font-size: 20px;
+    line-height: 30px;
+}
+.ruby3{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

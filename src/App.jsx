@@ -1,3 +1,4 @@
+import { About } from './About';
 import './App.css';
 import { Images } from './Images';
 import { SearchPage } from './SearchPage';
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={ <Home/>} />
           <Route path="/search" element={<SearchPage/>} />
           <Route path="/images" element={<Images/>} />
+          <Route path="/about" element={<About/>} />
        </Routes>
     </Router>
    </div>
