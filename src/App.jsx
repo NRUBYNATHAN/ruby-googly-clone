@@ -1,4 +1,5 @@
 import './App.css';
+import { Images } from './Images';
 import { SearchPage } from './SearchPage';
 import { Home } from './pages/Home';
 
@@ -10,6 +11,7 @@ function App() {
        <Routes>
           <Route path="/" element={ <Home/>} />
           <Route path="/search" element={<SearchPage/>} />
+          <Route path="/images" element={<Images/>} />
        </Routes>
     </Router>
    </div>
